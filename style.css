@@ -590,7 +590,7 @@ footer{
     
     footer{
         background-color: #eeeeee;
-        height: 25px;
+        max-height: 25px;
         width: 100%;
         text-align: center;
         color: black;
@@ -644,9 +644,10 @@ footer{
     
     .presright{
         color: white;
-        font-size: 7px;
+        font-size: 5px;
         float: left;
         width: 70%;
+        font-weight: bold;
     }
     
     .propic{
