@@ -1187,7 +1187,7 @@ footer{
     
     .img{
         width: 100%;
-        min-height: 750px;
+        min-height: 650px;
         position: relative;
         opacity: 0.55;
         background-position: 0px -220px;
@@ -1197,11 +1197,11 @@ footer{
         margin: 0px 5%;
         position: absolute;
         z-index: 1;
-        top: 135%;
+        top: 125%;
     }
     
     .container2{
-        max-height: 750px;
+        min-height: 550px;
         width: 100%;
         background-color: #ffe11c;
         border-top: #ffe11c solid 5px;
@@ -1212,6 +1212,6 @@ footer{
         margin: 0px 5%;
         position: absolute;
         z-index: 1;
-        top: 235%;
+        top: 215%;
     }
 }
