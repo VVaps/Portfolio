@@ -34,11 +34,11 @@ nav li{
 }
 
 nav a{
-    font-size: 25px;
+    font-size: 23px;
     color: #eeeeee;
     text-decoration: none;
     display: inline-block;
-    padding: 25px 80px;
+    padding: 23px 75px;
 }
 
 .table{
@@ -113,7 +113,7 @@ nav a{
 
 footer{
     background-color: #eeeeee;
-    height: 100px;
+    max-height: 100px;
     width: 100%;
     text-align: center;
     color: black;
@@ -136,24 +136,6 @@ footer{
     font-style: normal;
     font-size: 50px;
 
-}
-
-.title1{
-    color: white;
-    text-align: center;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
-
-.title2{  
-    color: white;
-    text-align: center;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
 }
 
 .content{
@@ -240,7 +222,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     body{
         margin: 0px;
         padding: 0px;
@@ -250,15 +232,15 @@ footer{
     
     header{
         width: 100%;
-        height: 100px;
+        height: 200px;
         text-align: center;
     }
     
     .pacifico-regular {
         font-family: "Pacifico", cursive;
-        font-weight: 200;
+        font-weight: 400;
         font-style: normal;
-        font-size: 50px;
+        font-size: 100px;
       }
     
     nav{
@@ -277,11 +259,11 @@ footer{
     }
     
     nav a{
-        font-size: 12,5px;
+        font-size: 17px;
         color: #eeeeee;
         text-decoration: none;
         display: inline-block;
-        padding: 12,5px 40px;
+        padding: 17px 30px;
     }
     
     .table{
@@ -290,115 +272,89 @@ footer{
     }
     
     .accueil{
-        border-bottom: #8a1919 solid 3px;
+        border-bottom: #8a1919 solid 7px;
         border-left: #959595 solid 1px;
         border-right:#959595  solid 1px;
     }
     
     .project{
-        border-bottom: #5fb455 solid 3px;
+        border-bottom: #5fb455 solid 7px;
         border-left: #959595 solid 1px;
         border-right:#959595  solid 1px;
     }
     
     .competences{
-        border-bottom: #1c2478 solid 3px;
+        border-bottom: #1c2478 solid 7px;
         border-left: #959595 solid 1px;
         border-right:#959595  solid 1px;
     }
     
     .hobbies{
-        border-bottom: #d3bc25 solid 3px;
+        border-bottom: #d3bc25 solid 7px;
         border-left: #959595 solid 1px;
         border-right:#959595  solid 1px;
     }
     
     .contact{
-        border-bottom: #ca6720 solid 3px;
+        border-bottom: #ca6720 solid 7px;
         border-left: #959595 solid 1px;
         border-right:#959595  solid 1px;
     }
     
     .accueil:hover{
         background-color: #bc2727;
-        box-shadow:-2,5px -2,5px 2,5px #818181 ;
+        box-shadow:-5px -5px 5px #818181 ;
         border-left:#818181 ;
         border-right: #818181;
     }
     
     .project:hover{
         background-color: #6ed662;
-        box-shadow:-2,5px -2,5px 2,5px #818181 ;
+        box-shadow:-5px -5px 5px #818181 ;
         border-left:#818181 ;
         border-right: #818181;
     }
     
     .competences:hover{
         background-color: #2c37bb;
-        box-shadow:-2,5px -2,5px 2,5px #818181 ;
+        box-shadow:-5px -5px 5px #818181 ;
         border-left:#818181 ;
         border-right: #818181;
     }
     
     .hobbies:hover{
         background-color: #e9cf26;
-        box-shadow:-2,5px -2,5px 2,5px #818181 ;
+        box-shadow:-5px -5px 5px #818181 ;
         border-left:#818181 ;
         border-right: #818181;
     }
     
     .contact:hover{
         background-color: #e37323;
-        box-shadow:-2,5px -2,5px 2,5px #818181 ;
+        box-shadow:-5px -5px 5px #818181 ;
         border-left:#818181 ;
         border-right: #818181;
     }
     
     footer{
         background-color: #eeeeee;
-        height: 50px;
+        max-height: 100px;
         width: 100%;
         text-align: center;
         color: black;
-        font-size: 12,5px;
-    }
-    
-    .container{
-        min-height: 325px;
-        width: 100%;
-        border-bottom: #8a1919 solid 10px;
-        border-top:#8a1919 solid 10px ;
-        background-color: #bc2727;
+        font-size: 17px;
     }
     
     .title{
         color: white;
         text-align: center;
         font-family: "Pacifico", cursive;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 25px;
-    
-    }
-    
-    .title1{
-        color: white;
-        text-align: center;
-        font-family: "Pacifico", cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: 25px;
-    }
+        font-size: 35px;
     
-    .title2{  
-        color: white;
-        text-align: center;
-        font-family: "Pacifico", cursive;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 25px;
     }
-    
+
     .content{
         margin: 0px 5%;
     }
@@ -410,7 +366,7 @@ footer{
     
     .presright{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         float: left;
         width: 70%;
     }
@@ -424,7 +380,7 @@ footer{
     
     .container1{
         color: white;
-        min-height: 500px;
+        min-height: 700px;
         width: 100%;
         border-bottom: #5fb455 solid 10px;
         border-top:#5fb455 solid 10px ;
@@ -469,13 +425,13 @@ footer{
     .text{
         text-align: center;
         float: left;
-        font-size: 15px;
+        font-size: 20px;
     }
     
     
     .container2{
         color: white;
-        min-height: 225px;
+        min-height: 300px;
         width: 100%;
         border-bottom: #1c2478 solid 10px;
         border-top:#1c2478 solid 10px ;
@@ -484,7 +440,7 @@ footer{
     
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
     body{
         margin: 0px;
         padding: 0px;
@@ -494,15 +450,15 @@ footer{
     
     header{
         width: 100%;
-        height: 25px;
+        height: 100px;
         text-align: center;
     }
     
     .pacifico-regular {
         font-family: "Pacifico", cursive;
-        font-weight: 50;
+        font-weight: 400;
         font-style: normal;
-        font-size: 15px;
+        font-size: 45px;
       }
     
     nav{
@@ -521,11 +477,12 @@ footer{
     }
     
     nav a{
-        font-size: 6px;
+        font-size: 10px;
+        font-weight: bold;
         color: #eeeeee;
         text-decoration: none;
         display: inline-block;
-        padding: 6px 20px;
+        padding: 15px 10px;
     }
     
     .table{
@@ -590,21 +547,13 @@ footer{
     
     footer{
         background-color: #eeeeee;
-        max-height: 25px;
+        max-height: 10px;
         width: 100%;
         text-align: center;
         color: black;
-        font-size: 6px;
+        font-size: 10px;
     }
-    
-    .container{
-        min-height: 125px;
-        width: 100%;
-        border-bottom: #8a1919 solid 5px;
-        border-top:#8a1919 solid 5px ;
-        background-color: #bc2727;
-    }
-    
+
     .title{
         color: white;
         text-align: center;
@@ -615,22 +564,12 @@ footer{
     
     }
     
-    .title1{
-        color: white;
-        text-align: center;
-        font-family: "Pacifico", cursive;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 12px;
-    }
-    
-    .title2{  
-        color: white;
-        text-align: center;
-        font-family: "Pacifico", cursive;
-        font-weight: 100;
-        font-style: normal;
-        font-size: 12px;
+    .container{
+        min-height: 250px;
+        width: 100%;
+        border-bottom: #8a1919 solid 5px;
+        border-top:#8a1919 solid 5px ;
+        background-color: #bc2727;
     }
     
     .content{
@@ -644,30 +583,25 @@ footer{
     
     .presright{
         color: white;
-        font-size: 5px;
+        font-size: 10px;
         float: left;
         width: 70%;
-        font-weight: bold;
     }
     
     .propic{
         border: #8a1919 solid 1,5px;
         box-shadow:#8a1919 -0,5px 0,5px 1px;
-        width: 39px;
-        height: 70px;
+        width: 86px;
+        height: 146px;
     }
     
     .container1{
         color: white;
-        min-height: 250px;
+        min-height: 345px;
         width: 100%;
         border-bottom: #5fb455 solid 5px;
         border-top:#5fb455 solid 5px ;
         background-color: #6ed662;
-    }
-    
-    .content1{
-        margin: 0px 5%;
     }
     
     #amepic{
@@ -704,13 +638,13 @@ footer{
     .text{
         text-align: center;
         float: left;
-        font-size: 7px;
+        font-size: 11px;
     }
     
     
     .container2{
         color: white;
-        min-height: 113px;
+        min-height: 175px;
         width: 100%;
         border-bottom: #1c2478 solid 5px;
         border-top:#1c2478 solid 5px ;
