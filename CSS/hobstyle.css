@@ -208,7 +208,7 @@ footer{
     margin: 0px 5%;
     position: absolute;
     z-index: 1;
-    top: 200%;
+    top: 235%;
 }
 
 @media screen and (max-width: 1400px){
